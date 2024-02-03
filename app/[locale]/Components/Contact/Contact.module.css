@@ -1,0 +1,29 @@
+.contact{
+  background-color: var(--main-color) ;
+  padding: 60px 0 ;
+}
+.contact .contact_title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.contact .contact_title h3{
+  font-size: var(--big-font-size);
+  color: var(--body-color);
+  font-weight: var(--big-font-weight);
+}
+.contact label,
+.contact input,
+.contact textarea,
+.contact button{
+  color: var(--body-color);
+}
+.contact button:hover{
+  color: var(--secondary-color);
+}
+
+@media (max-width: 575px){
+  .contact .contact_title h3{
+    font-size: calc(var(--big-font-size) - 5px);
+  }
+}

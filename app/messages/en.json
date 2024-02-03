@@ -1,0 +1,139 @@
+{
+  "Navbar": {
+    "homeLink": "Home",
+    "servicesLink": "Services",
+    "contactLink": "Contact"
+  },
+  "Hero" : {
+    "leftHeroTitle" : "Best arabic german consulting support",
+    "leftHeroDescription" : "advises and accompanies interested companies and public institutions in their involvement in Morocco. Among other things, we offer you our services",
+    "leftHeroLink1" : "Contact",
+    "leftHeroLink2" : "Services",
+    "RightHero": {
+      "item1Alt": "Market entry",
+      "item1Title": "Market entry",
+      "item1Description": "Business and investment opportunities  in Morocco",
+      "item2Alt": "distribution",
+      "item2Title": "distribution",
+      "item2Description": "Support in setting up a local sales structure",
+      "item3Alt": "Legal matters",
+      "item3Title": "Legal matters",
+      "item3Description": "Description Legal Matters",
+      "item4Alt": "Other",
+      "item4Title": "Other",
+      "item4Description": "Description Other"
+    }
+  },
+    "WhyUs": {
+      "title": "Why ARAB GERMAN CONSULTING",
+      "items": {
+        "1": "Intercultural Competence. We are at home in Morocco and at home in Germany!",
+        "2": "Excellent network",
+        "3": "Extensive contacts in politics, business and society",
+        "4": "We act as your partner and work completely independently and neutrally",
+        "5": "Over 10 years of experience in plant engineering"
+      }
+    },
+    "Services": {
+      "title": "Services",
+      "paragraph1": "Morocco is on the upswing. The country has initiated a thorough modernization of the economy.",
+      "paragraph2": "By strengthening competitiveness and integrating into world trade, King Mohamed VI and the government want to position the country in the top ranks of emerging economies.",
+      "paragraph3": "Thanks to numerous trade agreements with the EU, the USA, the Arab and African states, the goods 'Made in Morocco' have duty-free access to more than a billion customers.",
+      "paragraph4": "There are excellent business opportunities for German companies here.",
+      "market": {
+        "title": "Market Entry",
+        "content1": "Business and investment opportunities in Morocco",
+        "content2": "Location search and support in setting up a company",
+        "content3": "Mediation and qualification of cooperation and sales partners",
+        "content4": "Selection of suppliers and support with questions about contract manufacturing",
+        "content5": "Information about public tenders"
+      },
+      "distribution": {
+        "title": "Distribution",
+        "paragraph": "As a company, do you have a product portfolio and do you intend to expand your sales market to the Moroccan or Arabic region? Arab German Consulting ® is here to help you. Our services include the following focuses:",
+        "content1" : "Identification of market potential and development of appropriate sales strategies",
+        "content2" : "Observation and analysis of market and competition",
+        "content3" : "Development of marketing tools and adaptation to the local conditions of the region",
+        "content4" : "Creation and implementation of sales and marketing plans",
+        "content5" : "Support in setting up a local sales structure"
+      },
+      "legal": {
+        "title": "Legal Matters",
+        "paragraph": "We are ideally suited to assist our clients, especially with legal questions. We have competent, local specialist lawyers in our network who provide us with active support on various topics.",
+        "content1" : "Legal advice",
+        "content2" : "Contracts",
+        "content3" : "Debt collection matters",
+        "content4" : "Tax, labor and investment law"
+      },
+      "other": {
+        "title": "Other Services",
+        "content1": "Accompanying entrepreneurs on trips to trade fairs in Morocco and the MENA region",
+        "content2" : "Delivering presentations in French or Arabic",
+        "content3" : "Adaptation of documents and websites to local characteristics.",
+        "content4" : "Conducting product and service training for local employees"
+      }
+    },
+    "WhyMorocco": {
+      "title": "Why Morocco",
+      "contentHeader":{
+        "paragraph1": "Designed in Germany, made in Morocco",
+        "paragraph2": "Whether it’s the automotive industry, machinery, or general consumer goods – Morocco is an excellent manufacturing location for your product.",
+        "paragraph3": "Why wander into the distance when the good is so close? Instead of having to accept long delivery times from the Far East (over 8 weeks), your goods can be delivered from Morocco within a few days.",
+        "paragraph4": "This allows you to react quickly to market needs. Ten more reasons why Morocco is far superior as a location to the Far East:"
+      },
+      "contentBody" : {
+        "listOne": {
+          "content1": "Geographical proximity to Europe",
+          "content2": "Competitive advantages through low production costs",
+          "content3": "Strong economic growth and political stability",
+          "content4": "Duty-free access to more than a billion customers",
+          "content5": "Morocco has concluded numerous free trade agreements"
+        },
+        "listTwo": {
+          "content1": "Free trade agreement with the USA and Turkey",
+          "content2": "“Agadir partners” Egypt, Jordan and Tunisia",
+          "content3": "Morocco/WAEMU",
+          "content4": "Since spring 2013, the EU and Morocco have been negotiating a comprehensive agreement on freedom of trade and freedom of services to replace the existing association agreement"
+        },
+        "listThree": {
+          "content1": "Very good infrastructure",
+          "content2": "Highly qualified workforce",
+          "content3": "State-planned expansion of strategic areas",
+          "content4": "Funding programs to diversify the economy, promote growth and create jobs",
+          "content5": "Investment incentives and tax advantages (no taxes are levied in the first 5 years after the company was founded)",
+          "content6": "Excellent economic climate"
+        }
+      }
+    },
+    "Contact":{
+      "title" : "Contact Us",
+      "requiredText" : "Required",
+      "successMessage" : "Message Sent",
+      "nameLabel" : "Name",
+      "subjectLabel" : "Subject",
+      "emailLabel" : "Email", 
+      "messageLabel" : "message",
+      "buttonText" : "Submit"
+    },
+    "Footer": {
+      "responsibilityContent": {
+        "title": "Content Responsibility",
+        "contentList": {
+          "item1": "Dr. Ahmed Abdelbar El Jaouhari",
+          "item2": "Arab German Consulting",
+          "item3": "At Brettig 18 D - 91330 Eggolsheim",
+          "item4": "+49 (9545) 4416 – 134",
+          "item5": "DE 287736852"
+        }
+      },
+      "WebsiteInfoContent": {
+        "title": "Website Information",
+        "contentList": {
+          "item1": "+49 (9545) 4416 – 135",
+          "item2": "info@arab-german-consulting.com",
+          "item3": "www.arab-german-consulting.com"
+        }
+      },
+      "language" : "Language"
+    }
+}

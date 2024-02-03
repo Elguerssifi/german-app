@@ -1,0 +1,86 @@
+.why_morocco_section{
+  padding: 60px 0;
+}
+.why_morocco_section .why_morocco_title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.why_morocco_section .why_morocco_title h3{
+  font-size: var(--big-font-size);
+  color: var(--main-color);
+  font-weight: var(--big-font-weight);
+}
+.why_morocco_section .row{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: var(--big-spacing);
+  background-color: var(--main-color);
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.5);
+}
+.why_morocco_section .why_morocco_body {
+  position: relative;
+  overflow: hidden;
+}
+.why_morocco_section .why_morocco_body::after{
+  content: '';
+  position: absolute;
+  right: -110px;
+  top: 2%;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: var(--third-color);
+  opacity: 0.3;
+}
+.why_morocco_section .why_morocco_header p{
+  color: var(--body-color);
+  font-size: var(--small-font-size);
+  font-weight: var(--big-font-weight);
+}
+.why_morocco_section .why_morocco_body ul li{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: var(--small-font-size);
+  font-weight: 700;
+  color: var(--body-color);
+}
+.why_morocco_section .why_morocco_body ul li span svg{
+  margin-top: 3px;
+}
+.why_morocco_section .why_morocco_body ul:nth-of-type(2){
+  margin-left: 80px;
+}
+
+@media (max-width: 790px){
+  .why_morocco_section .row{
+    padding: 30px;
+  }
+}
+@media (max-width:575px){
+  .why_morocco_section .why_morocco_title h3{
+    font-size: calc(var(--big-font-size) - 5px);
+  }
+  .why_morocco_section{
+    padding: 0px 0px 60px 0px;
+  }
+  .why_morocco_section .why_morocco_body::after{
+    display: none;
+  }
+  .why_morocco_section .why_morocco_header p{
+    font-size: calc(var(--small-font-size) - 3px);
+  }
+  .why_morocco_section .why_morocco_body ul li{
+    font-size: calc(var(--small-font-size) - 3px);
+  }
+  .why_morocco_section .why_morocco_body ul li span svg{
+    margin-top: 1.5px;
+  }
+  .why_morocco_section .why_morocco_body ul:nth-of-type(2){
+    margin-left: 40px;
+  }
+}

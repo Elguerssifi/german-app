@@ -1,0 +1,139 @@
+{
+  "Navbar": {
+    "homeLink": "Heim",
+    "servicesLink": "Dienstleistunge",
+    "contactLink": "Kontakt"
+  },
+  "Hero" : {
+    "leftHeroTitle" : "Beste arabisch deutsche Beratungsunterstützung",
+    "leftHeroDescription" : "berät und begleitet interessierte Unternehmen und öffentliche Institutionen bei ihrem Engagement in Marokko. Unter anderem bieten wir Ihnen unsere Dienstleistungen an",
+    "leftHeroLink1" : "Kontakt",
+    "leftHeroLink2" : "Dienstleistungen",
+    "RightHero": {
+      "item1Alt": "Markteintritt",
+      "item1Title": "Markteintritt",
+      "item1Description": "Beschreibung Markteintritt",
+      "item2Alt": "Vertrieb",
+      "item2Title": "Vertrieb",
+      "item2Description": "Beschreibung Vertrieb",
+      "item3Alt": "Rechtsangelegenheiten",
+      "item3Title": "Rechtsangelegenheiten",
+      "item3Description": "Beschreibung Rechtsangelegenheiten",
+      "item4Alt": "Andere",
+      "item4Title": "Andere",
+      "item4Description": "Beschreibung Andere"
+    }
+  },
+    "WhyUs": {
+      "title": "Warum ARAB GERMAN CONSULTING ",
+      "items": {
+        "1": "Interkulturelle Kompetenz. Wir sind in Marokko daheim und in Deutschland zuhause!",
+        "2": "Ausgezeichnetes Netzwerk",
+        "3": "Weitreichende Kontakte in Politik, Wirtschaft und Gesellschaft",
+        "4": "Wir treten als Ihr Partner auf und arbeiten völlig unabhängig und neutral",
+        "5": "Über 10 Jahre Erfahrung in Anlagenbau"
+      }
+    },
+    "Services": {
+      "title": "Dienstleistungen",
+      "paragraph1": "Marokko befindet sich im Aufschwung. Das Land hat eine durchgreifende Modernisierung der Wirtschaft in Gang gesetzt.",
+      "paragraph2": "Durch die Stärkung der Wettbewerbsfähigkeit und die Integration in den Welthandel wollen König Mohamed VI und die Regierung das Land in den ersten Rang der Schwellenländer positionieren.",
+      "paragraph3": "Durch zahlreiche Handelsabkommen mit der EU, den USA, den arabischen und afrikanischen Staaten hat die Ware “Made in Morocco“ zollfreien Zugang zu mehr als einer Milliarde Kunden.",
+      "paragraph4": "Für deutsche Unternehmen bieten sich hier hervorragende Geschäftsmöglichkeiten an:",
+      "market": {
+        "title": "Markteinstieg",
+        "content1": "Geschäftsfelder- und Investitionsmöglichkeiten in Marokko",
+        "content2": "Standortsuche und Begleitung bei der Unternehmensgründung",
+        "content3": "Vermittlung und Qualifizierung von Kooperations- und Vertriebspartnern",
+        "content4": "Auswahl von Lieferanten und Unterstützung bei Fragen zur Lohnfertigung",
+        "content5": "Information über öffentliche Ausschreibungen"
+      },
+      "distribution": {
+        "title": "Vertrieb",
+        "paragraph": "Sie verfügen als Unternehmen über ein Produktportfolio und beabsichtigen ihren Absatzmarkt auf den marokkanischen bzw. arabischen Raum zu erweitern? Arab German Consulting ® steht ihnen dabei zur Seite. Unsere Dienstleistungen beinhalten folgende Schwerpunkte:",
+        "content1" : "Identifikation des Marktpotentials und Erarbeitung entsprechender Vertriebsstrategien",
+        "content2" : "Beobachtung und Analyse von Markt und Wettbewerb",
+        "content3" : "Entwicklung von Marketinginstrumenten und Anpassung an die lokalen Gegebenheiten der Region",
+        "content4" : "Erstellung und Implementation der Vertriebs- und Marketing-Pläne",
+        "content5" : "Unterstützung beim Aufbau einer lokalen Vertriebsstruktur"
+      },
+      "legal": {
+        "title": "Rechtsdienstleistungen",
+        "paragraph": "Gerade bei Rechtfragen sind wir bestens geeignet unseren Klienten zur Seite zu stehen. Dafür haben wir in unserem Netzwerk kompetente, ortsansässige Fachanwälte die uns bei diversen Themen tatkräftig unterstützen.",
+        "content1" : "Rechtsauskunft",
+        "content2" : "Vertragswesen",
+        "content3" : "Inkasso-Angelegenheiten",
+        "content4" : "Steuer-, Arbeits- und Investitionsrecht"
+      },
+      "other": {
+        "title": "Sonstige Dienstleistungen",
+        "content1": "Begleitung bei Unternehmerreisen zu Messen in Marokko und der MENA-Region",
+        "content2" : "Vortragen von Präsentationen auf Französisch oder Arabisch",
+        "content3" : "Anpassung von Dokumenten und Internetauftritten an die lokalen Besonderheiten.",
+        "content4" : "Durchführung von Produkt- und Serviceschulungen für lokale Mitarbeiter"
+      }
+    },
+    "WhyMorocco": {
+      "title": "Warum Marokko",
+      "contentHeader":{
+        "paragraph1": "“Designed in Germany, made in morocco”",
+        "paragraph2": "Ob Automobilindustrie, Maschinen oder allgemeine Konsumgüter – Marokko eignet sich hervorragend als Fertigungsstandort für Ihr Produkt.",
+        "paragraph3": "Warum in die Ferne schweifen, wenn das Gute so nahe liegt? Anstatt lange Lieferzeiten aus Fernost (über 8 Wochen) in Kauf nehmen zu müssen, kann Ihre Ware aus Marokko binnen ein paar Tagen geliefert werden. So können Sie schnell auf Marktbedürfnisse reagieren.",
+        "paragraph4": "Zehn weitere Gründe, warum Marokko als Standort dem fernen Osten weit überlegen ist:"
+      },
+      "contentBody" : {
+        "listOne": {
+          "content1": "Geografische Nähe zu Europa",
+          "content2": "Wettbewerbsvorteile durch geringe Gestehungskosten",
+          "content3": "Starkes Wirtschaftswachstum und politische Stabilität",
+          "content4": "Zollfreier Zugang zu mehr als eine Milliarde Kunden",
+          "content5": "Marokko hat zahlreiche Freihandelsabkommen abgeschlossen"
+        },
+        "listTwo": {
+          "content1": "Freihandelsabkommen mit den USA und der Türkei",
+          "content2": "“Agadir-Partner“ Ägypten, Jordanien und Tunesien",
+          "content3": "Morocco/WAEMU",
+          "content4": "Seit Frühjahr 2013 verhandeln die EU und Marokko über ein umfassendes Abkommen zur Handels- und Dienstleistungsfreiheit, um das bestehende Assoziierungsabkommen zu ersetzen"
+        },
+        "listThree": {
+          "content1": "Sehr gute Infrastruktur",
+          "content2": "Hochqualifizierte Arbeitskräfte",
+          "content3": "Staatlich geplanter Ausbau strategischer Bereiche",
+          "content4": "Förderprogramme zur Diversifizierung der Wirtschaft, Förderung des Wachstums und Schaffung von Arbeitsplätzen",
+          "content5": "Investitionsanreize und Steuervorteile (in den ersten 5 Jahren nach Unternehmensgründung werden keine Steuern erhoben)",
+          "content6": "Ausgezeichnetes Wirtschaftsklima"
+        }
+      }
+    },
+    "Contact":{
+      "title" : "kontaktiere uns",
+      "requiredText" : "Erforderlich",
+      "successMessage" : "Nachricht gesendet",
+      "nameLabel" : "Name",
+      "subjectLabel" : "Thema",
+      "emailLabel" : "Email", 
+      "messageLabel" : "Nachricht",
+      "buttonText" : "Einreichen"
+    },
+    "Footer": {
+      "responsibilityContent": {
+        "title": "Inhaltlich Verantwortlich",
+        "contentList": {
+          "item1": "Dr. Ahmed Abdelbar El Jaouhari",
+          "item2": "Arab German Consulting",
+          "item3": "An der Brettig 18 D - 91330 Eggolsheim",
+          "item4": "+49 (9545) 4416 – 134",
+          "item5": "DE 287736852"
+        }
+      },
+      "WebsiteInfoContent": {
+        "title": "Website-Informationen",
+        "contentList": {
+          "item1": "+49 (9545) 4416 – 135",
+          "item2": "info@arab-german-consulting.com",
+          "item3": "www.arab-german-consulting.com"
+        }
+      },
+      "language" : "Sprache"
+    }
+}
