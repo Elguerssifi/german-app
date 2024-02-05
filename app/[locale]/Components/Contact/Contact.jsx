@@ -1,5 +1,5 @@
 "use client"
-
+import Image from "next/image";
 import {sendContactForm} from "../../../lib/api"
 import { useState , useEffect } from "react";
 import theme from "@/app/config/theme";
@@ -16,7 +16,6 @@ import {
   Text,
   useToast
 } from "@chakra-ui/react";
-import { title } from "process";
 
 const initValues = {
   name : "",
@@ -107,82 +106,100 @@ const Contact = ({
           <h3>{contactTitle}</h3>
         </div>
           <div className={styles.row}>
-            {error && (
-              <Text color="red.300" my={4} fontSize="xl">
-                {error}
-              </Text>
-            )}
-            <FormControl 
-              isRequired 
-              mb={5} 
-              isInvalid={touched.name && !values.name}
-            >
-              <FormLabel>{nameLabel}</FormLabel>
-              <Input 
-                type="text"
-                name="name"
-                errorBorderColor="red.300"
-                value={values.name}
-                onChange={handleChange}
-                onBlur={onBlur}
-              />
-              <FormErrorMessage>{requiredText}</FormErrorMessage>
-            </FormControl>
-            <FormControl 
-              isRequired 
-              mb={5} 
-              isInvalid={touched.subject && !values.subject}
-            >
-              <FormLabel>{subjectLabel}</FormLabel>
-              <Input 
-                type="text"
-                name="subject"
-                value={values.subject}
-                onChange={handleChange}
-                onBlur={onBlur}
-              />
-              <FormErrorMessage>{requiredText}</FormErrorMessage>
-            </FormControl>
-            <FormControl 
-              isRequired 
-              mb={5} 
-              isInvalid={(touched.email && emailError!=="")}
-            >
-              <FormLabel>{emailLabel}</FormLabel>
-              <Input 
-                type="email"
-                name="email"
-                value={values.email}
-                onChange={handleChange}
-                onBlur={onBlur}
-              />
-              <FormErrorMessage>{emailTextError}</FormErrorMessage>
-            </FormControl>
-            <FormControl 
-              isRequired 
-              mb={5} 
-              isInvalid={touched.message && !values.message}
-            >
-              <FormLabel>{messageLabel}</FormLabel>
-              <Textarea 
-                type="text"
-                name="message"
-                rows={4}
-                value={values.message}
-                onChange={handleChange}
-                onBlur={onBlur}
-              />
-              <FormErrorMessage>{requiredText}</FormErrorMessage>
-            </FormControl>
-            <Button
-              variant="outline"
-              colorScheme="blue"
-              isLoading={isLoading}
-              isDisabled={!values.name || !values.email || !values.subject || !values.message || emailError!==""}
-              onClick={onSubmit}
-            >
-              {buttonText}
-            </Button>
+            <div className={styles.responsible_content}>
+                <div className={styles.responsible_content_title}>
+                  <h4>Responsible Website Information</h4>
+                </div>
+                <div className={styles.responsible_main_info}>
+                  <div className={styles.responsible_image}>
+                    <img
+                      src="/Assets/profile.png"
+                      alt="Responsible Arab Consulting Image"
+                    />
+                  </div>
+                  <div className={styles.responsible_description}>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates qui! Atque corrupti nulla nisi perferendis fugit odit nesciunt sequi quidem in, ipsum omnis vitae sit deleniti obcaecati? Modi, expedita!</p>
+                  </div>
+                </div>
+            </div>
+            <div className={styles.contact_form}>
+              {error && (
+                <Text color="red.300" my={4} fontSize="xl">
+                  {error}
+                </Text>
+              )}
+              <FormControl 
+                isRequired 
+                mb={5} 
+                isInvalid={touched.name && !values.name}
+              >
+                <FormLabel>{nameLabel}</FormLabel>
+                <Input 
+                  type="text"
+                  name="name"
+                  errorBorderColor="red.300"
+                  value={values.name}
+                  onChange={handleChange}
+                  onBlur={onBlur}
+                />
+                <FormErrorMessage>{requiredText}</FormErrorMessage>
+              </FormControl>
+              <FormControl 
+                isRequired 
+                mb={5} 
+                isInvalid={touched.subject && !values.subject}
+              >
+                <FormLabel>{subjectLabel}</FormLabel>
+                <Input 
+                  type="text"
+                  name="subject"
+                  value={values.subject}
+                  onChange={handleChange}
+                  onBlur={onBlur}
+                />
+                <FormErrorMessage>{requiredText}</FormErrorMessage>
+              </FormControl>
+              <FormControl 
+                isRequired 
+                mb={5} 
+                isInvalid={(touched.email && emailError!=="")}
+              >
+                <FormLabel>{emailLabel}</FormLabel>
+                <Input 
+                  type="email"
+                  name="email"
+                  value={values.email}
+                  onChange={handleChange}
+                  onBlur={onBlur}
+                />
+                <FormErrorMessage>{emailTextError}</FormErrorMessage>
+              </FormControl>
+              <FormControl 
+                isRequired 
+                mb={5} 
+                isInvalid={touched.message && !values.message}
+              >
+                <FormLabel>{messageLabel}</FormLabel>
+                <Textarea 
+                  type="text"
+                  name="message"
+                  rows={4}
+                  value={values.message}
+                  onChange={handleChange}
+                  onBlur={onBlur}
+                />
+                <FormErrorMessage>{requiredText}</FormErrorMessage>
+              </FormControl>
+              <Button
+                variant="outline"
+                colorScheme="blue"
+                isLoading={isLoading}
+                isDisabled={!values.name || !values.email || !values.subject || !values.message || emailError!==""}
+                onClick={onSubmit}
+              >
+                {buttonText}
+              </Button>
+            </div>
           </div>
         </Container>
       </ChakraProvider>
