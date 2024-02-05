@@ -5,8 +5,8 @@
     "contactLink": "Kontakt"
   },
   "Hero" : {
-    "leftHeroTitle" : "Beste arabisch deutsche Beratungsunterstützung",
-    "leftHeroDescription" : "berät und begleitet interessierte Unternehmen und öffentliche Institutionen bei ihrem Engagement in Marokko. Unter anderem bieten wir Ihnen unsere Dienstleistungen an",
+    "leftHeroTitle" : "Beste arabic german consulting support",
+    "leftHeroDescription" : "Berät und begleitet interessierte Unternehmen und öffentliche Institutionen bei ihrem Engagement in Marokko. Unter anderem bieten wir Ihnen unsere Dienstleistungen an",
     "leftHeroLink1" : "Kontakt",
     "leftHeroLink2" : "Dienstleistungen",
     "RightHero": {
@@ -106,7 +106,7 @@
       }
     },
     "Contact":{
-      "title" : "kontaktiere uns",
+      "title" : "Kontaktiere uns",
       "requiredText" : "Erforderlich",
       "successMessage" : "Nachricht gesendet",
       "nameLabel" : "Name",

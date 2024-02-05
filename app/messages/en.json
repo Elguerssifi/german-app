@@ -6,7 +6,7 @@
   },
   "Hero" : {
     "leftHeroTitle" : "Best arabic german consulting support",
-    "leftHeroDescription" : "advises and accompanies interested companies and public institutions in their involvement in Morocco. Among other things, we offer you our services",
+    "leftHeroDescription" : "Advises and accompanies interested companies and public institutions in their involvement in Morocco. Among other things, we offer you our services",
     "leftHeroLink1" : "Contact",
     "leftHeroLink2" : "Services",
     "RightHero": {
@@ -113,7 +113,7 @@
       "subjectLabel" : "Subject",
       "emailLabel" : "Email", 
       "emailTextError" : "Inavlid Email",
-      "messageLabel" : "message",
+      "messageLabel" : "Message",
       "buttonText" : "Submit"
     },
     "Footer": {
