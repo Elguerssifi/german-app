@@ -57,6 +57,7 @@ export default function Home() {
           nameLabel={t('Contact.nameLabel')}
           subjectLabel={t('Contact.subjectLabel')}
           emailLabel={t('Contact.emailLabel')}
+          emailTextError={t('Contact.emailTextError')}
           messageLabel={t('Contact.messageLabel')}
           buttonText={t('Contact.buttonText')}
         />

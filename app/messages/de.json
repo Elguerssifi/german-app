@@ -112,6 +112,7 @@
       "nameLabel" : "Name",
       "subjectLabel" : "Thema",
       "emailLabel" : "Email", 
+      "emailTextError" : "Ungültige E-Mail",
       "messageLabel" : "Nachricht",
       "buttonText" : "Einreichen"
     },

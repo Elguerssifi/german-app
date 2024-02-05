@@ -112,6 +112,7 @@
       "nameLabel" : "Name",
       "subjectLabel" : "Subject",
       "emailLabel" : "Email", 
+      "emailTextError" : "Inavlid Email",
       "messageLabel" : "message",
       "buttonText" : "Submit"
     },

@@ -1,7 +1,7 @@
 "use client"
 
 import {sendContactForm} from "../../../lib/api"
-import { useState  } from "react";
+import { useState , useEffect } from "react";
 import theme from "@/app/config/theme";
 import styles from "./Contact.module.css"
 import Container from "../Container/Container";
@@ -25,7 +25,12 @@ const initValues = {
   message : "",
 }
 
-const initState = { isLoading: false, error: "", values: initValues };
+const initState = {
+  isLoading: false, 
+  error: "", 
+  emailError: "",
+  values: initValues 
+};
 
 const Contact = ({
   contactTitle,
@@ -34,6 +39,7 @@ const Contact = ({
   nameLabel,
   subjectLabel,
   emailLabel,
+  emailTextError,
   messageLabel,
   buttonText
 }) => {
@@ -42,20 +48,33 @@ const Contact = ({
   const [state,setState] = useState(initState)
   const [touched,setTouched] = useState({})
 
-  const {values , isLoading , error} = state
+  const {values , isLoading , error , emailError} = state
 
   const onBlur = ({target}) => setTouched((prev) => ({
     ...prev,
     [target.name] : true
   }))
 
-  const handleChange = ({target}) => setState((prev) => ({
-    ...prev,
-    values : {
-      ...prev.values,
-      [target.name] : target.value
+  const handleChange = ({target}) => {
+    setState((prev) => ({
+      ...prev,
+      values: {
+        ...prev.values,
+        [target.name]: target.value
+      },
+    }));
+  }
+  useEffect(() => {
+    let newEmailError = "";
+    // Email format validation
+    if (!/^\S+@\S+\.\S+$/.test(values.email)) {
+      newEmailError = emailTextError;
     }
-  })) 
+    setState((prev) => ({
+      ...prev,
+      emailError: newEmailError, // Set separate emailError state
+    }));
+  }, [values.email, emailTextError,touched.email]);
 
   const onSubmit = async () => {
     setState((prev) => ({
@@ -127,7 +146,7 @@ const Contact = ({
             <FormControl 
               isRequired 
               mb={5} 
-              isInvalid={touched.email && !values.email}
+              isInvalid={(touched.email && emailError!=="")}
             >
               <FormLabel>{emailLabel}</FormLabel>
               <Input 
@@ -137,7 +156,7 @@ const Contact = ({
                 onChange={handleChange}
                 onBlur={onBlur}
               />
-              <FormErrorMessage>{requiredText}</FormErrorMessage>
+              <FormErrorMessage>{emailTextError}</FormErrorMessage>
             </FormControl>
             <FormControl 
               isRequired 
@@ -159,7 +178,7 @@ const Contact = ({
               variant="outline"
               colorScheme="blue"
               isLoading={isLoading}
-              isDisabled={!values.name || !values.email || !values.subject || !values.message}
+              isDisabled={!values.name || !values.email || !values.subject || !values.message || emailError!==""}
               onClick={onSubmit}
             >
               {buttonText}
